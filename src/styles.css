@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.App {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+.NavLink a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 5px;
+}
+body {
+  background-color: #21242f;
+}
+.bg {
+  background-color: black;
+  width: 40%;
+}
+.transecDiv {
+  color: #ce9e34;
+}
+@media only screen and (max-width: 600px) {
+  .bg {
+    width: auto;
+  }
+}
